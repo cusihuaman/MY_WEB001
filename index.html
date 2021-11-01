@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image.png" href="./asset/iconos/trending-up.svg">
     <title>My-web0001-Cusco-peru</title>
     <!-- fuentes de google -->
     <link href=“https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap” rel=“stylesheet”>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/table.css" media="(min-width:930px)">
 </head>
 <body>
     <header>
@@ -17,7 +19,7 @@
             <p>Databbit te ayuda a navegar entre los diferentes precios
                 y tendencias
             </p>
-            <a class="header--button" href="">Conoce nuestros planes <samp></samp></a>
+            <a class="header--button" href="#plans">Conoce nuestros planes <samp></samp></a>
         </div>
     </header>
     <main>
@@ -35,30 +37,151 @@
                     <div class="currency-table--countainer">
                         <table>
                             <tr>
-                                <td class="">Bitcon</td>
-                                <td class="">1.96 <samp></samp></td>
+                                <td class="table_top-left">Bitcon</td>
+                                <td class="table_top-right">$1.96 <samp class="down"></samp></td>
                             </tr>
                             <tr>
                                 <td>Eztherum</td>
-                                <td>0.07</td>
+                                <td class="table_right">$0.07 <samp class="up"></samp></td>
                             </tr>
                             <tr>
                                 <td>Riple</td>
-                                <td>2.17</td>
+                                <td class="table_right">$2.17 <samp class="down-r"></samp></td>
                             </tr>
                             <tr>
-                                <td>Steller</td>
-                                <td>4.96</td>
+                                <td class="table_botton-left">Steller</td>
+                                <td class="table_botton-right table_right" >$4.96 <samp class=" down-s"></samp></td>
                             </tr>
                         </table>
+                    </div>
+                    <div class="currency-date">
+                        <p><strong>Actualizado</strong> .19 de julio 23.50</p>
+                    </div>
+                </div>
+                <!--  -->
+                 <div class="main-corrency-table">
+                    <p class="currency-table--title">Monedas</p>
+                    <div class="currency-table--countainer">
+                        <table>
+                            <tr>
+                                <td class="table_top-left">Bitcon</td>
+                                <td class="table_top-right">$1.96 <samp class="down"></samp></td>
+                            </tr>
+                            <tr>
+                                <td>Eztherum</td>
+                                <td class="table_right">$0.07 <samp class="up"></samp></td>
+                            </tr>
+                            <tr>
+                                <td>Riple</td>
+                                <td class="table_right">$2.17 <samp class="down-r"></samp></td>
+                            </tr>
+                            <tr>
+                                <td class="table_botton-left">Steller</td>
+                                <td class="table_botton-right table_right" >$4.96 <samp class=" down-s"></samp></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="currency-date">
+                        <p><strong>Actualizado</strong> .19 de julio 23.50</p>
                     </div>
                 </div>
             </section>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section class="main-product-details">
+            <sanp class="product-deatail-batatas-logo"></sanp>
+            <div class="product-detail-title">
+                <h2>Creamos un producto sin comparacion</h2>
+                <p>Confiable y diseñado para su uso diario</p>
+            </div>
+            <section class="product-carts-container">
+                <article class="product-details--card">
+                    <sanp class="clock"></sanp>
+                    <p class="product-card-title">Tiempo real</p>
+                    <p class="product--card-body">Nuestro Api toma informacion minuto a minuto sobre las
+                        tasas que mas determinan el comportamiento
+                    </p>
+                </article>
+                <article class="product-details--card">
+                    <sanp class="clock"></sanp>
+                    <p class="product-card-title">Tiempo real</p>
+                    <p class="product--card-body">Nuestro Api toma informacion minuto a minuto sobre las
+                        tasas que mas determinan el comportamiento
+                    </p>
+                </article>
+                <article class="product-details--card">
+                    <sanp class="clock"></sanp>
+                    <p class="product-card-title">Tiempo real</p>
+                    <p class="product--card-body">Nuestro Api toma informacion minuto a minuto sobre las
+                        tasas que mas determinan el comportamiento
+                    </p>
+                </article>
+                <article class="product-details--card">
+                    <sanp class="clock"></sanp>
+                    <p class="product-card-title">Tiempo real</p>
+                    <p class="product--card-body">Nuestro Api toma informacion minuto a minuto sobre las
+                        tasas que mas determinan el comportamiento
+                    </p>
+                </article>
+            </section>
+        </section>
+        <section class="bitcoin-img-countainer">
+            <h2>conócelo hoy.</h2>
+        </section>
+        <section id="plans" class="main-plans-countainer">
+            <div class="plans--title">
+                <h2>Escoge el plan que mejor se ajuste a tí</h2>
+                <p>Cualquer plan te da acceso completo a nuestra plataforma</p>
+            </div>
+            <section class="plans-container--slider">
+                <article class="plans-container-card">
+                    <p class="recomendado">Es recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">Pago anual</h3>
+                        <p class="plan-card-price"> <span>$</span>99</p>
+                        <p class="plan-card--savig">* Ahorra $129 comparado al plan mensual</p>
+                        <button class="plan-card-ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+                <!--  1-->
+                <article class="plans-container-card">
+                    <p class="recomendado">Es recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">Pago anual</h3>
+                        <p class="plan-card-price"> <span>$</span>99</p>
+                        <p class="plan-card--savig">* Ahorra $129 comparado al plan mensual</p>
+                        <button class="plan-card-ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+                <!-- 2 -->
+                <article class="plans-container-card">
+                    <p class="recomendado">Es recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">Pago anual</h3>
+                        <p class="plan-card-price"> <span>$</span>99</p>
+                        <p class="plan-card--savig">* Ahorra $129 comparado al plan mensual</p>
+                        <button class="plan-card-ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+            </section>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li>
+                    <a href="#">Linkend</a>
+                </li>
+                <li>
+                    <a href="#">crushbase</a>
+                </li>
+                <li>
+                    <a href="#">hackerman</a>
+                </li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="./asset/img/logo-footer.svg" alt="programador">
+        </section>
+    </footer>
 </body>
 </html>
